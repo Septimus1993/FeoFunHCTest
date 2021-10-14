@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0480b91ecb4db4840865ebb5befbda98, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: 
+  _playerSettings:
+    _moveSpeed: 15
+    _jumpAcceleration: 18
+    _jumpMinSpeed: 10.5
+    _jumpMaxSpeed: 18
+  _cameraSettings:
+    _angleX: 15
+    _angleStep: 0.2
+    _distance: 2
+    _distanceStep: 0.125
+    _offset: {x: -12, y: -0.5, z: -3}
+  _cubeSettings:
+    _playerCube: {fileID: 4300000, guid: d8c7d85256ebd204b818a10b59ae50eb, type: 2}
+    _neutralCubeCube: {fileID: 4300000, guid: 6f941434af4d095478e61b6765266ca7, type: 2}
+  _scriptableEvents:
+  - {fileID: 11400000, guid: 539ff02dc4de5be4d80693bb94fa69cc, type: 2}
+  - {fileID: 11400000, guid: ba87abc326232d7429dbaf4b1312efa4, type: 2}
+  - {fileID: 11400000, guid: d4316fd5836f19a4fa86b78c8f1eb6ad, type: 2}
+  - {fileID: 11400000, guid: caacdd5fc46eb3f42bde84083409edfc, type: 2}
